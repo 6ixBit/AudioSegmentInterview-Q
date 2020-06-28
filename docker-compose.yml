@@ -14,7 +14,7 @@ services:
     server: 
         build: ./server
         volumes: 
-            - ./client:/app
+            - ./server:/app
         ports:
             - 5000:5000 
         restart: always
