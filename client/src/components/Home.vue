@@ -40,7 +40,7 @@ export default {
     data() {
         return {
             result: [],
-            serverURL: "http://localhost:5000/stat",
+            serverURL: "http://161.35.255.161:5000/stat", // For deployment
             plyr: "Neo"
         }
     },
